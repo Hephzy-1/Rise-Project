@@ -1,0 +1,66 @@
+nav {
+  display: flex;
+  background-color: rgb(7, 7, 63);
+  padding: 35px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 8vw;
+}
+
+.navigation{
+  display: flex;
+  margin-left: 50%;
+  padding: 10px;
+  
+}
+
+.navigation ul{
+  display: flex;
+  width: 70px;
+}
+.navigation ul li{
+  padding: 8px 15px;
+  list-style-type: none;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  text-align: center;
+  transition: 1s;
+}
+
+.nav-bar :hover {
+  letter-spacing: 3px;
+  color: rgba(194, 185, 59, 0.89);
+}
+
+.fancy-pics {
+  background-image: url(../Pictures/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  margin: 0 0;
+}
+
+.heading1 {
+  color: #f0f8ff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.heading2 {
+  color: #f0f8ff;
+}

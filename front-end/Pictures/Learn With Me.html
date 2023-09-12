@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn With Me</title>
+
+  
+  
+  
+  
+  <script src="./Learn With Me_files/script.js.download" defer=""></script>
+<link rel="stylesheet" href="./Learn With Me_files/css2"><link rel="stylesheet" href="./Learn With Me_files/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="./Learn With Me_files/index.css"><link rel="stylesheet" href="./Learn With Me_files/common.css"></head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="nav-bar">
+
+    <!-- INSERT LOGO -->
+
+    <div class="navigation">
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+        <li><a href="http://127.0.0.1:5500/about.html">ABOUT</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#">CONTACT</a></li> <!-- Remember to create a blog page  -->
+        <li><a href="http://127.0.0.1:5500/chat.html">CHATS</a></li>
+        <li><a href="http://127.0.0.1:5500/learn.html">LEARN</a></li>
+        <li><a href="http://127.0.0.1:5500/signin.html">SIGNIN</a></li>
+      </ul>
+      
+      
+    </div>
+    
+  </nav>
+
+  <section aria-label="pic-heading">
+    <div class="fancy-pics">
+
+      <div class="heading1">
+        <h1>
+          Ready To Learn?
+        </h1>
+      </div>
+
+      <div class="heading2">
+        <h2>
+          Get Started
+        </h2>
+      </div>
+
+      <button class="register" type="button">
+        Register Now
+      </button>
+    </div>
+  </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
