@@ -1,0 +1,28 @@
+nav{
+  display: flex;
+  background-color: rgb(7, 7, 63);
+  padding: 35px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  padding: 35px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+ color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 75px;
+  text-align: center;
+  transition: 1s;
+}
+
+.nav-bar :hover {
+  letter-spacing: 3px;
+  color: rgba(194, 185, 59, 0.89);
+}

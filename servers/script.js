@@ -2,27 +2,31 @@ const http = require('http')
 
 const handler = (req, res) => {
   switch (req.url){
-    case '/index.html':
-      res.write('Home page');
+    case '/index':
+      res.redirect('/index.html');
       res.end();
       break;
     case '/':
-      res.write('Home page');
+      res.redirect('/index.html');
       res.end();
       break;
     case '/about':
-      res.write('About page');
+      res.redirect('/about.html');
       res.end();
       break;
     case '/chat':
-      res.write('Chat box');
+      res.redirect('/chat.html');
+      res.end();
+      break;
+    case '/about.html':
+      res.write('Home page');
       res.end();
       break;
     case '/learn':
       res.write('Learning Page');
       res.end();
       break;
-    case '/signin':
+    case '/auth':
       res.write('SignIn page');
       res.end();
       break;

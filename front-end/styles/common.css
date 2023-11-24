@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  background-color: #fffaf0;
+  background-color: #dedfe7;
 }
 
 section {
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 650;
 }
 
 span {
@@ -31,4 +31,8 @@ span {
 h6 {
   font-size: 1.1rem;
   color: rgb(24, 24, 49);
+}
+
+.spacer30{
+  margin-top: 30px;
 }
