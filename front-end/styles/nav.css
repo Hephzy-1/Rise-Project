@@ -12,7 +12,40 @@ nav{
   padding: 35px;
 }
 
-.nav-bar a {
+.nav-bar > .right-column {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.nav-bar > .right-column a {
+  color: #fff;
+  font-family: "Poppins", serif;
+  text-decoration: none;
+  justify-content: space-between;
+  transition: 0.5s;
+}
+
+.link-wrapper {
+  width: 75px;
+  text-align: center;
+}
+
+.link-wrapper i {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.link-wrapper i:hover {
+  color: #cea135;
+}
+
+.nav-bar > .right-column a:hover {
+  letter-spacing: 0.05em;
+  color: #cea135;
+}
+
+/* .nav-bar a {
   text-decoration: none;
  color: #fff;
   margin: 0;
@@ -25,4 +58,4 @@ nav{
 .nav-bar :hover {
   letter-spacing: 3px;
   color: rgba(194, 185, 59, 0.89);
-}
+} */

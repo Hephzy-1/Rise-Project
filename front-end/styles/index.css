@@ -37,18 +37,48 @@
   cursor: pointer;
 }
 
-.features-section {
+.display-section > .row {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
 }
 
-.features-section > .row {
-  
-  max-width: 1080px;
-  margin: auto;
+.display-section > .row > .about-section {
+  flex-basis: 60%;
+  min-width: 100px;
 }
 
-.features-section > .row img {
-  height: 60%;
-  width: 50%;
+.display-section > .row > .about-section img {
+  max-width: 60%;
+  padding: 15px 45px;
+
+}
+
+.display-section > .row > .about-writing {
+  font: 15em;
+}
+
+.display-section > .row > .about-writing h2 {
+  font-size: 36px;
+  line-height: 40px;
+  margin: 20px 0;
+  text-decoration: wavy;
+  text-transform: uppercase;
+}
+
+.display-section > .row > .about-writing > .about {
+  padding: 10px;
+  margin: 0px;
+  margin-left: 80px;
+  margin-top: 30px;
+  border: 5px;
+  background-color: #020E28;
+  font-size: 26px;
+  /* border-color: #214d; */
+}
+
+.display-section > .row > .about-writing > .about a {
+  text-decoration: none;
+  color: #dedfe7;
 }

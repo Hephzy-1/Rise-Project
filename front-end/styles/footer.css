@@ -1,0 +1,86 @@
+.footer {
+  background-color: #11122b;
+  color: #cbcbcb;
+  font-family: 'Poppins', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 450px;
+}
+
+.footer > .footer-container > .logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer > .footer-container > .logo-container img {
+  width: 200px;
+  height: 100%;
+  filter: brightness(55%);
+}
+
+.footer > .footer-container > .footer-phone-hours {
+  text-align: center;
+}
+
+.footer > .footer-container > .footer-phone-hours span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.footer > .footer-container > .footer-phone-hours > .hours {
+  font-size: 0.8em;
+  color: #cea135;
+}
+
+.footer > .footer-container > .links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  width: 400px;
+}
+
+.footer > .footer-container > .links-wrapper > .nav-link a {
+  color: #cbcbcb;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer > .footer-container > .links-wrapper > .nav-link {
+  width: 30px;
+  margin: 25px;
+}
+
+.footer > .footer-container > .links-wrapper > .nav-link a:hover {
+  letter-spacing: 0.05em;
+  color: #cea135;
+}
+
+.footer > .social-media-links {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer > .social-media-links a {
+  font-size: 1.5em;
+  color: #cbcbcb;
+  transition: 0.5s;
+}
+
+.footer > .social-media-links a:hover {
+  color:#cea135
+}
+
+.footer > .copyright-wrapper {
+  margin-bottom: 42px;
+  font-size: 0.7em;
+  color: #858585;
+}
